@@ -22,7 +22,7 @@
           "size": "1115473",
           "boards": [
             {
-		"name": "WeMos M2"
+		"name": "WeMos M2",
 		"name": "WeMos M0"
 	    }        
           ],

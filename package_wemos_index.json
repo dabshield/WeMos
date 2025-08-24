@@ -22,7 +22,7 @@
           "size": "1115473",
           "boards": [
             {
-		"name": "WeMos M0"
+		"name": "WeMosM0"
 	    }        
           ],
           "toolsDependencies": [

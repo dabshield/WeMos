@@ -50,7 +50,12 @@
               "packager": "arduino",
               "name": "CMSIS-Atmel",
               "version": "1.2.0"
-            }
+            },
+            {
+              "packager": "arduino",
+              "name": "samd",
+              "version": "1.8.14"
+            }			  
           ]
         }
       ],

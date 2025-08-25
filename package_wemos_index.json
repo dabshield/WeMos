@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "WeMos M0",
+      "name": "WeMosM0",
       "maintainer": "DAB Shield",
       "websiteURL": "http://www.dabshield.com/",
 	  "email": "info@dabshiled.com",

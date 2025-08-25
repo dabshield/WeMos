@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "WeMosM0",
+      "name": "WeMos M0",
       "maintainer": "DAB Shield",
       "websiteURL": "http://www.dabshield.com/",
 	  "email": "info@dabshiled.com",
@@ -16,14 +16,14 @@
           "architecture": "samd",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/dabshield/WeMos/master/WeMos-1.0.0.zip",
-          "archiveFileName": "WeMos-1.0.0.zip",
-          "checksum": "SHA-256:0F1BFC902DE228FD0A7E8E2755AE6951462E71841D46DFE7DDE8A2547AEB1A9F",		  
-          "size": "1115473",
+          "url": "https://raw.githubusercontent.com/dabshield/WeMos/master/WeMos-1.0.1.zip",
+          "archiveFileName": "WeMos-1.0.1.zip",
+          "checksum": "SHA-256:e636874e7bbae7bad123ca388573cd645738e646644d2e79a1d0d7a59bfa8df2",
+          "size": "1699831",
           "boards": [
             {
-		"name": "WeMos M0"
-	    }        
+              "name": "WeMos M0"
+            }
           ],
           "toolsDependencies": [
             {
@@ -34,7 +34,7 @@
             {
               "packager": "arduino",
               "name": "bossac",
-              "version": "1.7.0-arduino3"
+              "version": "1.6.1-arduino"
             },
             {
               "packager": "arduino",
@@ -49,7 +49,7 @@
             {
               "packager": "arduino",
               "name": "CMSIS-Atmel",
-              "version": "1.1.0"
+              "version": "1.0.0"
             }
           ]
         }

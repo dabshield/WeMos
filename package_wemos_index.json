@@ -4,13 +4,11 @@
       "name": "WeMosM0",
       "maintainer": "DAB Shield",
       "websiteURL": "http://www.dabshield.com/",
-	  "email": "info@dabshiled.com",
-      "help":
-      {
+      "email": "info@dabshiled.com",
+      "help": {
         "online": "http://www.dabshield.com/"
       },
-      "platforms":
-      [
+      "platforms": [
         {
           "name": "WeMos M0 Board",
           "architecture": "samd",
@@ -28,18 +26,23 @@
           "toolsDependencies": [
             {
               "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            },
+            {
+              "packager": "arduino",
               "name": "arm-none-eabi-gcc",
               "version": "7-2017q4"
             },
             {
               "packager": "arduino",
-              "name": "bossac",
-              "version": "1.9.1-arduino2"
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
             },
             {
               "packager": "arduino",
-              "name": "openocd",
-              "version": "0.11.0-arduino2"
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
             },
             {
               "packager": "arduino",
@@ -50,6 +53,11 @@
               "packager": "arduino",
               "name": "CMSIS-Atmel",
               "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
             }
           ]
         }
